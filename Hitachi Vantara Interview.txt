@@ -1,0 +1,69 @@
+## Hitachi Vantara Interview
+
+## system design - LLD - chess board
+
+-- place the charaters
+
+
+-- play 
+--- define valid moves
+
+--
+
+
+interface 
+-- placement
+placeChar();
+
+
+
+
+
+absract class chessboardCharacter() {
+	
+	CharacterType gettype();
+
+	move();
+
+	enum MoveType type {
+
+	}
+
+	moveDiagonal();
+	
+	moveStraight();
+
+}
+
+
+class Move {
+
+
+	
+}
+
+
+
+
+Position {
+	
+	int xValue;
+
+	int yValue;
+
+	storeCurrentPosition(CharacterType type, );
+
+
+}
+
+
+Player {
+	
+	enum type {
+		BLACK, WHILTE;
+	}
+
+
+
+}
+

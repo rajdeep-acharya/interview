@@ -1,0 +1,20 @@
+## Deloitte interview
+
+List<Employee> empList = 
+
+class Employees {
+	gender;
+	depId;
+	salary;
+}
+
+find female emp of each dep having highest salary
+
+Map<depId, List<Employee>>
+
+Map<String, Long> map = empList.stream().filter(Employee::getGender == "female").collect(Collectors.groupingBy(emp.getDepId, Collectors.counting())
+
+empList.stream().sorted().max(Collections.comparing(Employee::getSalary))
+
+
+
