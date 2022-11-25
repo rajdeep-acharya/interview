@@ -1,0 +1,47 @@
+Employee Management Requirements
+Save data for Employee, Department, Project
+A department can have one or more Projects
+A project belongs to only one Department
+A department can have one or more Employees
+An employee can be part of one or more Departments.
+An employee can be part of one or more project across different departments provided they are part of that project’s department.
+All need to be identified by a “code” say for example Department - rotor, wheel, Project – fin, req, Employee – E1001, E1002, etc. This code is provided by a user during creation and not auto generated.
+But project code is not unique on its own, the combination of department code and project code makes it unique
+
+Tech requirement
+What will the DB schema look like to fulfil the above requirementsBusiness requirement
+get details of all the employees associated with a specified project
+
+
+
+
+Employee - code(PK), name, 
+//project_id(FK)(one-to-many)
+
+Employee_Department - emp_code, dpt_code
+
+Department - code(PK), name
+
+Dept_Project - dept_code(PK), project_code(PK) 
+
+Project - (code, dept_code)(PK), name 
+
+
+select emp_code, emp_name from
+employee as e
+join employee_department as ed on e.code = ed.emp_code
+join departmnet as d on ed.dpt_code = d.code 
+join dept_project as dp on d.code = dp.dpt_code
+join project as p on dp.p_code = p.code
+where p.code = '' AND d.code = '';
+
+
+GET /rest/dept/{dept_code}/project/{projet_code}/emp
+
+
+dissociate emp from project
+
+delete
+
+
+DELETE /rest/dept/{dept_code}/project/{projet_code}/emp/{emp_code}

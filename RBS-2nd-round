@@ -1,0 +1,101 @@
+maxxo-biz
+
+maxxo-core-ear
+	maxxo-util - jar
+	maxxo-persistence
+	maxxo-gateway -war
+
+
+
+
+
+api gatway -> k8cluster
+
+
+k8cluster -> 1 LB (neflix ribbon - weight response time rule), service registry
+
+
+service registry -> service (/rest/api/order), server
+
+
+k8cluster -> mster node (kubectl)
+-> pod -> docker containers -
+
+
+
+Resource1 R1 = new Resource1();
+
+Resource2 R2 = new Resource2(R1);
+
+
+public class Thread1 extends Thread {
+	
+	public static void main(string[] args) {
+
+	}
+
+	public void run() {
+		synchrozied(R1) {
+			try  { 
+				Thread.sleep(10) 
+				}
+			catch (InteruptedException e){
+
+			}
+
+		}
+	}
+}
+
+
+public class Thread2 extends Thread {
+	
+	public static void main(string[] args) {
+
+	}
+
+	public void run() {
+		R2.lock()
+	}
+}
+
+
+
+Empolyee - id, designation, gender, age
+
+count of emp age > 30
+group by desgination
+
+Map<desgnation, count>
+
+
+List<Empolyee> empList = new ArrayList<>();
+
+empList
+	.stream()
+	.filter(e -> e.getAge() > 30)
+	.collect(Collections.groupingBy(Employee::getDesigation, Collections.counting()))
+
+
+
+
+SQL 
+table employee - id, year, no. of awards
+
+1| 2020| 3
+1| 2021| 5
+3| 2023| 4
+
+emp id, no. of award > 7
+
+1| sum()
+
+
+select id, sum(emp.award) as sum_of_award
+from emp
+group by emp.id
+where sum_of_award > 7;
+
+
+
+
