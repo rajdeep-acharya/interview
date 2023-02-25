@@ -1,0 +1,34 @@
+A big food chain wants to develop a platform which can be used by thousands of customers to order a customized burger with their choice of ingredients. Customer should be able to choose from pre-defined ingredients:
+Type of bunSaladCheese Burger patty
+The price of burger should be dynamically calculated based on the ingredients chosen by the customer. Price can also vary based on the customer location.
+While the company will like to track the mode of payment (credit, debit, bitcoin) but it will not like to handle the customers card information.
+
+Food chain is also expecting that once they go online their customer base will increase 10 folds. 
+
+Problem 1: 
+Provide a blueprint for the platform, identify the services required to meet the requirements. The integration mechanism also needs to be defined. 
+The food chain already has many such platforms for other purposes, their tech team primarily uses Java.
+
+
+Table
+
+
+
+Outlet 
+
+id, name, location_id, ingredents_id
+
+
+Ingredients
+
+id, location_id
+
+
+Location
+id, longitude, latitude, altitude
+
+
+
+Customer
+
+id, name, address, location
