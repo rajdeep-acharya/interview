@@ -2,20 +2,21 @@
 
 ### Contents
 
-* [Articles](#articles)
-* [Algorithms](#algorithms)
-* [Coding](#coding)
-* [Guides](#guides)
-* [Language-specific](#language-specific)
-    * [JavaScript](#javascript)
-    * [Python](#python)
-* [Maths](#maths)
-* [Meta](#meta)
-* [Questions](#questions)
-* [Systems Design](#systems-design)
-* [Unix](#unix)
-* [Videos](#videos)
-* [other repos](#similar-github-repos)
+- [Articles](#articles)
+- [Algorithms](#algorithms)
+- [Coding](#coding)
+- [Guides](#guides)
+- [Language-specific](#language-specific)
+  - [JavaScript](#javascript)
+  - [Python](#python)
+- [Maths](#maths)
+- [Meta](#meta)
+- [Questions](#questions)
+- [Systems Design](#systems-design)
+- [Unix](#unix)
+- [Videos](#videos)
+- [Similar Github repos](#similar-github-repos)
+- [25 invaluable lessons you can learn in \<2 minutes:](#25-invaluable-lessons-you-can-learn-in-2-minutes)
 
 
 ## Articles
@@ -248,3 +249,32 @@ Recommended: **Candidate Coaching Session: Tech Interviewing** [[Youtube][v_ccs]
 * [InterviewThis](https://github.com/ChiperSoft/InterviewThis)
 * [job_interview](https://github.com/ruby-jokes/job_interview)
 * [what-happens-when](https://github.com/alex/what-happens-when)
+
+
+## 25 invaluable lessons you can learn in <2 minutes:
+
+1. Don't hesitate to ask for clarifications.
+2. Recognize that interviewers want you to succeed.
+3. Contextualize challenges to showcase complexity. 
+4. Prepare a concise yet compelling self-introduction. 
+5. Discuss complex examples from your work history. 
+6. Avoid unexplained acronyms or internal references.
+7. Show enthusiasm for the role you're interviewing for.  
+8. Use detailed descriptions to showcase your knowledge. 
+9. Answer questions directly, without going off on tangents. 
+10. Be prepared to discuss detailed aspects of your projects. 
+11. Listen attentively and integrate the interviewer's feedback. 
+12. Pause to collect your thoughts when stuck or are fumbling. 
+13. Come prepared with thoughtful questions to ask at the end. 
+14. Provide a brief summary before delving into complex topics. 
+15. Make your individual contributions clear from those of others. 
+16. Discuss your career aspirations and how the role aligns with them. 
+17. Research the company's culture, role and requirements thoroughly.  
+18. Be truthful, even if that means admitting you don't know the answer. 
+19. Be clear about your role and scope when discussing your experience. 
+20. Vary your examples across interviews to display breadth of experience. 
+21. Only provide as much context as necessary to understand the situation.
+22. Use recent examples that best showcase your skills and responsibilities. 
+23. Indicate the scope of your projects to show the scale of your experience.
+24. Reflect on your performance after the interview, regardless of the outcome.
+25. Always highlight the impact of your work, ideally using quantitative measures.
